@@ -22,7 +22,7 @@ jobs:
           node-version: lts/*
       - run: npm clean-install
       - run: npm audit signatures
-      - run: npx semantic-release
+      - run: npx semantic-release --branches package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
