@@ -6,6 +6,26 @@ on:
       - package
 
 jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: paulhatch/semantic-version@v5.0.2
+        with:
+          tag_prefix: "v"
+          version_format: "${major}.${minor}.${patch}-${increment}"
+          major_pattern: "(MAJOR)"
+          major_regexp_flags: "i"
+          minor_pattern: "(MINOR)"
+          minor_regexp_flags: "i"
+          change_path: "src/"
+          bump_each_commit: false
+          search_commit_body: true
+          user_format_type: "csv"
+          enable_prerelease_mode: true
+
   publish-gpr:
     runs-on: ubuntu-latest
     permissions:
