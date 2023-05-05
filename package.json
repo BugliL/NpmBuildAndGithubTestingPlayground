@@ -1,5 +1,5 @@
 {
-  "name": "@buglil/npmbuildandgithubtestingplayground",
+  "name": "@buglil/npm-dummy-package",
   "version": "1.0.0",
   "description": "Dummy package to test github",
   "main": "src/index.js",
