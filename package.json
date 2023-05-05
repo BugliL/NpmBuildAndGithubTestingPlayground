@@ -23,6 +23,9 @@
     "npm": "^9.6.6",
     "webpack": "^5.82.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "webpack-cli": "^5.0.2"
   }
