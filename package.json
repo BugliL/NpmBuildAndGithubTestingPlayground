@@ -1,5 +1,5 @@
 {
-  "name": "npmbuildandgithubtestingplayground",
+  "name": "@buglil/npmbuildandgithubtestingplayground",
   "version": "1.0.0",
   "description": "Dummy package to test github",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BugliL/NpmBuildAndGithubTestingPlayground"
+    "url": "git+https://github.com/BugliL/NpmBuildAndGithubTestingPlayground.git"
   },
   "keywords": [
     "dummy",
