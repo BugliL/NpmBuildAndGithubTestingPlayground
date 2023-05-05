@@ -4,7 +4,8 @@
   "description": "Dummy package to test github",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,13 @@
   "author": "Lorenzo Bugli",
   "license": "MIT",
   "dependencies": {
-    "npm": "^9.6.6"
+    "npm": "^9.6.6",
+    "webpack": "^5.82.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.2"
   }
 }
