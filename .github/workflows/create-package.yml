@@ -23,7 +23,7 @@ jobs:
           node-version: lts/*
       - run: npm clean-install
       - run: npm audit signatures
-      - run: > 
+      - run: >-
         npx 
           -p @semantic-release/changelog 
           -p @semantic-release/git 
