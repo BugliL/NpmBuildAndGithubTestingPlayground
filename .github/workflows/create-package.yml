@@ -24,11 +24,11 @@ jobs:
       - run: npm clean-install
       - run: npm audit signatures
       - run: >-
-        npx 
-          -p @semantic-release/changelog 
-          -p @semantic-release/git 
-          -p semantic-release 
-          semantic-release --branches package
+          npx 
+            -p @semantic-release/changelog 
+            -p @semantic-release/git 
+            -p semantic-release 
+            semantic-release --branches package
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
