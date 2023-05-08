@@ -1,5 +1,4 @@
 {
-  "release": {
     "branches": [
       { "name": "package", "prerelease": false },
       { "name": "develop", "prerelease": true },
@@ -53,6 +52,5 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
-  }
 }
 
