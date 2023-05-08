@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.0.0](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.3.0...v1.0.0) (2023-05-08)
+
+
+### Features
+
+* **Prova:** Test per breaking change ([aaeffe9](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/commit/aaeffe9332529276987516355d862174a195f85d))
+
+
+### BREAKING CHANGES
+
+* **Prova:** xxx
+
 # [0.3.0](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.2.2...v0.3.0) (2023-05-08)
 
 

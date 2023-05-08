@@ -1,6 +1,6 @@
 {
   "name": "@buglil/npm-dummy-package",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Dummy package to test github",
   "main": "src/index.js",
   "scripts": {
