@@ -23,7 +23,13 @@ jobs:
           node-version: lts/*
       - run: npm clean-install
       - run: npm audit signatures
-      - run: npx semantic-release --branches package
+      - run: > 
+        npx 
+          -p @semantic-release/changelog 
+          -p @semantic-release/git 
+          -p semantic-release 
+          semantic-release --branches package
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
