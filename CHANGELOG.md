@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.2.1...v0.2.2) (2023-05-08)
+
+
+### Bug Fixes
+
+* **github-action:** Fixed .releaserc ([d0d2269](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/commit/d0d2269453ce291573ba28110ebf06f3f3981373))
+
 ## [0.2.1](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.2.0...v0.2.1) (2023-05-08)
 
 
