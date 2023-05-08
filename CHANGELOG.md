@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.3.0](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.2.2...v0.3.0) (2023-05-08)
+
+
+### Features
+
+* **PND-76:** Aggiunto file ([4488365](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/commit/4488365369cf3fb97d97635d9252b595a8446a6b))
+
 ## [0.2.2](https://github.com/BugliL/NpmBuildAndGithubTestingPlayground/compare/v0.2.1...v0.2.2) (2023-05-08)
 
 
