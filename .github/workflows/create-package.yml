@@ -25,9 +25,9 @@ jobs:
       - run: npm audit signatures
       - run: >-
           npx 
-            -p @semantic-release/changelog 
-            -p @semantic-release/git 
-            -p semantic-release 
+            --package @semantic-release/changelog 
+            --package @semantic-release/git 
+            --package semantic-release 
             semantic-release --branches package
 
         env:
